@@ -87,3 +87,16 @@ button:hover {
   max-width: 1100px;
   margin: 0 auto;
 }
+/* ====== Saad Imran: About us Page ====== */
+/* Home Page Styles */
+.home-header {
+  color: blue;
+  text-align: center;
+}
+
+/* Product Page Styles */
+.product-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+/*  */
