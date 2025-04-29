@@ -1,89 +1,79 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Base body styling */
+/* Global styles */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f8f9fa;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Header styles */
-header {
-  background-color: #343a40;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+/* Header Section */
+.header {
+    background-color: #ff6347;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Navigation styles */
-nav {
-  margin-top: 10px;
-  background-color: #495057;
-  padding: 10px;
-  text-align: center;
+/* Promo Section */
+.promo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 40px 20px;
+    margin-top: 20px;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+/* Text in Promo Section */
+.promo-text {
+    flex: 1;
+    padding: 20px;
 }
 
-nav a:hover {
-  text-decoration: underline;
+.promo-text h2 {
+    font-size: 36px;
+    color: #333;
 }
 
-/* Main content area */
-main {
-  padding: 20px;
+.promo-text p {
+    font-size: 18px;
+    color: #555;
 }
 
-/* Section styling */
-section {
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+/* Image in Promo Section */
+.promo-image {
+    flex: 1;
+    text-align: center;
 }
 
-/* Footer styles */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #343a40;
-  color: #fff;
-  margin-top: 20px;
+.promo-image img {
+    max-width: 100%;
+    height: auto;
 }
 
-/* Buttons */
-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
+/* Call-to-Action Button */
+.cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
 }
 
-button:hover {
-  background-color: #0056b3;
+.cta-button:hover {
+    background-color: #e55342;
 }
 
-/* Utility classes */
-.text-center {
-  text-align: center;
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
