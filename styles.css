@@ -1,89 +1,79 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Base body styling */
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  background-color: #f8f9fa;
-  padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
-/* Header styles */
+/* Header */
 header {
-  background-color: #343a40;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background-color: #0077cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Navigation styles */
-nav {
-  margin-top: 10px;
-  background-color: #495057;
-  padding: 10px;
-  text-align: center;
+header h1 {
+    margin: 0;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-nav a:hover {
-  text-decoration: underline;
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
 }
 
-/* Main content area */
-main {
-  padding: 20px;
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Section styling */
-section {
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
-/* Footer styles */
+/* Main About Section */
+.about {
+    background-color: #ffffff;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.about h2 {
+    color: #0077cc;
+    margin-bottom: 20px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+
+.about ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #343a40;
-  color: #fff;
-  margin-top: 20px;
-}
-
-/* Buttons */
-button {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #0056b3;
-}
-
-/* Utility classes */
-.text-center {
-  text-align: center;
-}
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
 }
