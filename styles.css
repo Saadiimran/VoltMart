@@ -1,79 +1,89 @@
-/* Global styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header Section */
-.header {
-    background-color: #ff6347;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.promo-body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f8f9fa;
+  padding: 20px;
 }
 
-/* Promo Section */
+.promo-header {
+  background-color: #ff6347;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.promo-title {
+  font-size: 28px;
+}
+
 .promo-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 40px 20px;
-    margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 40px 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
 }
 
-/* Text in Promo Section */
 .promo-text {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
-.promo-text h2 {
-    font-size: 36px;
-    color: #333;
+.promo-heading {
+  font-size: 36px;
+  color: #333;
 }
 
-.promo-text p {
-    font-size: 18px;
-    color: #555;
+.promo-description {
+  font-size: 18px;
+  color: #555;
 }
 
-/* Image in Promo Section */
-.promo-image {
-    flex: 1;
-    text-align: center;
-}
-
-.promo-image img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Call-to-Action Button */
 .cta-button {
-    background-color: #ff6347;
-    color: white;
-    padding: 15px 30px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
+  background-color: #ff6347;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 .cta-button:hover {
-    background-color: #e55342;
+  background-color: #e55342;
 }
 
-/* Footer Section */
-.footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.promo-image {
+  flex: 1;
+  text-align: center;
+}
+
+.promo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.promo-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-text {
+  font-size: 14px;
 }
