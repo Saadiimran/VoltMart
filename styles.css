@@ -1,3 +1,4 @@
+/* Feature Section - from feature/issue#6 */
 .promo-body-page {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -81,4 +82,95 @@
 
 .promo-body-page .footer-text {
   font-size: 14px;
+}
+
+/* General Section - from Develop */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('images/hero-banner.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  background-color: #ff6a00;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #e95b00;
+}
+
+/* Features Section */
+.features {
+  padding: 3rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.product-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-small {
+  margin-top: 0.5rem;
+  display: inline-block;
+  background-color: #0a0f3c;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn-small:hover {
+  background-color: #1b255a;
 }
