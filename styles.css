@@ -1,4 +1,72 @@
-/* Feature Section - from feature/issue#6 */
+
+.product-page body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.product-page header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.product-page h1,
+.product-page h2 {
+    margin: 10px 0;
+}
+
+.product-page section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-page img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-page ul li {
+    padding: 5px 0;
+}
+
+.product-page button {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.product-page button:hover {
+    background: #218838;
+}
+
+.product-page footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
 .promo-body-page {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -84,7 +152,6 @@
   font-size: 14px;
 }
 
-/* General Section - from Develop */
 footer {
   background-color: #333;
   color: #fff;
@@ -93,7 +160,6 @@ footer {
   margin-top: 30px;
 }
 
-/* Hero Section */
 .hero {
   background: url('images/hero-banner.jpg') center/cover no-repeat;
   height: 80vh;
