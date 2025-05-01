@@ -1,9 +1,10 @@
 * {
   margin: 0;
-  padding: 1;
+  padding: 0;
   box-sizing: border-box;
 }
 
+/* Body */
 .promo-body {
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -13,6 +14,7 @@
   padding: 20px;
 }
 
+/* Header */
 .promo-header {
   background-color: #ff6347;
   color: white;
@@ -24,6 +26,7 @@
   font-size: 28px;
 }
 
+/* Promo Section */
 .promo-section {
   display: flex;
   justify-content: center;
@@ -49,6 +52,17 @@
   color: #555;
 }
 
+.promo-image {
+  flex: 1;
+  text-align: center;
+}
+
+.promo-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* CTA Button */
 .cta-button {
   background-color: #ff6347;
   color: white;
@@ -64,16 +78,7 @@
   background-color: #e55342;
 }
 
-.promo-image {
-  flex: 1;
-  text-align: center;
-}
-
-.promo-img {
-  max-width: 100%;
-  height: auto;
-}
-
+/* Footer */
 .promo-footer {
   background-color: #333;
   color: white;
